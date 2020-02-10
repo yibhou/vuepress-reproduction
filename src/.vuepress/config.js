@@ -49,13 +49,13 @@ module.exports = {
     },
     // 插件
     plugins: [
-      // 'markdown-it-sup',
-      // 'markdown-it-sub',
+      'markdown-it-sup',
+      'markdown-it-sub',
     ],
     extendMarkdown: md => {
       md
-        .use(require('markdown-it-sup'))
-        .use(require('markdown-it-sub'))
+    //     .use(require('markdown-it-sup'))
+    //     .use(require('markdown-it-sub'))
     }
   },
   // 插件
